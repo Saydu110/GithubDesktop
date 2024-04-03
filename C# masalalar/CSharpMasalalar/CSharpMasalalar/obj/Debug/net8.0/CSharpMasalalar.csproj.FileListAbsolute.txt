@@ -1,0 +1,14 @@
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.deps.json
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.runtimeconfig.json
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.dll
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.pdb
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.GeneratedMSBuildEditorConfig.editorconfig
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.AssemblyInfoInputs.cache
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.AssemblyInfo.cs
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.csproj.CoreCompileInputs.cache
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.dll
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/refint/CSharpMasalalar.dll
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.pdb
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.genruntimeconfig.cache
+/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/ref/CSharpMasalalar.dll

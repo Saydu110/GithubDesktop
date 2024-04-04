@@ -349,7 +349,7 @@ class Programm
             // 8-masala
             /*Write("Ixtiyoriy son kiriting : ");
             int a = int.Parse(ReadLine()!);
-            if (a>9999 && a<100000 && a%3==0)
+            if (a > 9999 && a < 100000 && a % 3 == 0)
             {
                 Write("Berilgan son 5 xonali va 3ga karrali");
             }
@@ -607,7 +607,7 @@ class Programm
             WriteLine($"berilgan son {son} xonali");
             while (a>=1)
             {
-                a /= 10;
+                a /= 10;zo
                 son++;
             }
             WriteLine($"berilgan son {son} xonali");*/
@@ -624,15 +624,103 @@ class Programm
                 WriteLine($"bu son 4 ga karrali : {a-a%10}");   
             }*/
             // 9-masala
+            /*int a;
+            Write("a : ");
+            a = int.Parse(ReadLine()!);
+            if (a%2==0)
+            {
+                Write("Bu son 2 ga karrali");
+            }
+            if (a%3==0)
+            {
+                Write("Bu son 3 ga karrali");
+            }
+            if (a%4==0)
+            {
+                Write("Bu son 4 ga karrali");
+            }
+            if (a%5==0)
+            {
+                Write("Bu son 5 ga karrali");
+            }
+            if (a%6==0)
+            {
+                Write("Bu son 6 ga karrali");
+            }
+            if (a%7==0)
+            {
+                Write("Bu son 7 ga karrali");
+            }
+            if (a%9==0)
+            {
+                Write("Bu son 9 ga karrali");
+            }
+            else
+            {
+                Write("zo''''r");
+            }*/
+            // 10-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            if (a<0 || b<0)
+            {
+                WriteLine(a*b);
+            }
+
+            if (a>0 && b>0)
+            {
+                WriteLine(Math.Pow(a,2)+ Math.Pow(b,2));
+            }
+            else
+            {
+                WriteLine((a+b)/2);
+            }*/
+            // 11-masala
+            /*Write("Oy raqamini kiriting : ");
+            int a = int.Parse(ReadLine()!);
+            if (a>0 && a<=2 || a == 12)
+            {
+                WriteLine("Qish");
+            }
+
+            if (a>=3 && a<6)
+            {
+                WriteLine("Bahor");
+            }
+
+            if (a>=6 && a<9)
+            {
+                WriteLine("Yoz");
+            }
+
+            if (a>=9 && a<12)
+            {
+                WriteLine("Kuz");
+            }*/
+            // 12-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            Write("c : ");
+            int c = int.Parse(ReadLine()!);
+            if (a>=0&&b>=0&&c>=0)
+            {
+                WriteLine("Barcha sonlar musbat!!!");
+            }
+
+            if (expr)
+            {
+                
+            }*?
             
 
 
 
 
-
-
-
-            // Shaxmat 
+            // Shaxmat Saydu110/C-masalalar
             /*while (true)
             {
                 char harf;

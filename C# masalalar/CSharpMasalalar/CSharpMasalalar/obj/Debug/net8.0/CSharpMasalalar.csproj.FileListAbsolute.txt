@@ -12,3 +12,18 @@
 /home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.pdb
 /home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.genruntimeconfig.cache
 /home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/ref/CSharpMasalalar.dll
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.deps.json
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.runtimeconfig.json
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.dll
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/bin/Debug/net8.0/CSharpMasalalar.pdb
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.GeneratedMSBuildEditorConfig.editorconfig
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.AssemblyInfoInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.AssemblyInfo.cs
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.csproj.CoreCompileInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.sourcelink.json
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.dll
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/refint/CSharpMasalalar.dll
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.pdb
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/CSharpMasalalar.genruntimeconfig.cache
+/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/Debug/net8.0/ref/CSharpMasalalar.dll

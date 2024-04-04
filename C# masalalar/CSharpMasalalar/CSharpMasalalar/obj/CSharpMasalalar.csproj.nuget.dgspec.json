@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj": {}
+    "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj": {}
   },
   "projects": {
-    "/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj": {
+    "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj",
+        "projectUniqueName": "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj",
         "projectName": "CSharpMasalalar",
-        "projectPath": "/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj",
+        "projectPath": "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj",
         "packagesPath": "/home/Kuro/.nuget/packages/",
-        "outputPath": "/home/Kuro/RiderProjects/CSharpMasalalar/CSharpMasalalar/obj/",
+        "outputPath": "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/Kuro/.nuget/NuGet/NuGet.Config"

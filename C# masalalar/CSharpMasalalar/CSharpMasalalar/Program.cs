@@ -714,7 +714,8 @@ class Programm
             if (expr)
             {
                 
-            }*?
+            }*/
+            // 13-masala
             
 
 
@@ -822,6 +823,7 @@ Write($"c : {c}");*/
             {
                 Write("Bu nuqta I yoki II chorakda yotadi.");
             }*/
+            
 
         }
     }

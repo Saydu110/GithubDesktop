@@ -716,7 +716,70 @@ class Programm
                 
             }*/
             // 13-masala
-            
+            /*int son;
+            Write("3 xonali son kiriting : ");
+            son = int.Parse(ReadLine()!);
+            int yuzlik = son / 100;
+            int onlik = son / 10 % 10;
+            int birlik = son % 10;
+
+            string s = "";
+
+            switch (yuzlik)
+            {
+                case 1: s = "bir yuz"; break;
+                case 2: s = "ikki yuz"; break;
+                case 3: s = "uch yuz"; break;
+                case 4: s = "to'rt yuz"; break;
+                case 5: s = "besh yuz"; break;
+                case 6: s = "olti yuz"; break;
+                case 7: s = "yetti yuz"; break;
+                case 8: s = "sakkiz yuz"; break;
+                case 9: s = "to'qqiz yuz"; break;
+                
+            }
+
+            switch (onlik)
+            {
+                case 1: s += " o'n"; break;
+                case 2: s += " yigirma"; break;
+                case 3: s += " o'ttiz"; break;
+                case 4: s += " qirq"; break;
+                case 5: s += " ellik"; break;
+                case 6: s += " oltmish"; break;
+                case 7: s += " yetmish"; break;
+                case 8: s += " sakson"; break;
+                case 9: s += " to'qson"; break;
+            }
+
+            switch (birlik)
+            {
+                case 1: s += " bir"; break;
+                case 2: s += " ikki"; break;
+                case 3: s += " uch"; break;
+                case 4: s += " to'rt"; break;
+                case 5: s += " besh"; break;
+                case 6: s += " olti"; break;
+                case 7: s += " yetti"; break;
+                case 8: s += " sakkiz"; break;
+                case 9: s += " to'qqiz"; break;
+            }
+            WriteLine(s);*/
+            // 14-masala
+            int son;
+            Write("3 xonali son kiriting : ");
+            son = int.Parse(ReadLine()!);
+            int i = 0;
+            for (; son>=1; i++)
+            {
+                son /= 10;
+                
+            }
+
+            switch (i)
+            {
+                case 1: 
+            }
 
 
 
@@ -823,7 +886,7 @@ Write($"c : {c}");*/
             {
                 Write("Bu nuqta I yoki II chorakda yotadi.");
             }*/
-            
+
 
         }
     }
@@ -836,6 +899,15 @@ Write($"c : {c}");*/
         }
 
         return a;
+    }
+
+    public static void Numbers(int son)
+    {
+        for (int i = 0; son>=1; son/=10)
+        {
+            i = son % 10;
+            Console.WriteLine(i);
+        }
     }
 
    

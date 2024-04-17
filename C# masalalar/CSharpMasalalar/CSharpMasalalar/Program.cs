@@ -766,21 +766,49 @@ class Programm
             }
             WriteLine(s);*/
             // 14-masala
-            int son;
-            Write("3 xonali son kiriting : ");
+            /* int son;
+            Write("son kiriting : ");
             son = int.Parse(ReadLine()!);
             int i = 0;
+            bool check;
+            if (son %2==0)
+            {
+                check = true;
+            }
+            else
+            {
+                check = false;
+            }
             for (; son>=1; i++)
             {
                 son /= 10;
                 
             }
-
+            
+            string s = "";
+            
             switch (i)
             {
-                case 1: 
+                case 1: s = "bir xonali";break;
+                case 2: s = "ikki xonali";break;
+                case 3: s = "uch xonali";break;
+                case 4: s = "to'rt xonali";break;
+                case 5: s = "besh xonali";break;
+                case 6: s = "olti xonali";break;
+                case 7: s = "yetti xonali";break;
+                case 8: s = "sakkiz xonali";break;
+                case 9: s = "to'qqiz xonali";break;
+                
             }
-
+            switch (check)
+            {
+                case false: s += " toq son";break;
+                case true: s += " juft son";break;
+                
+            }
+            WriteLine(s);*/
+            // 15-masala
+            
 
 
 

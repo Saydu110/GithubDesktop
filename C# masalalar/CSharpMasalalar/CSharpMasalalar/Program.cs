@@ -808,8 +808,29 @@ class Programm
             }
             WriteLine(s);*/
             // 15-masala
+            /*Write("son kiriting : ");
+            int son = int.Parse(ReadLine()!);
+            string s = "";
+            switch (son)
+            {
+                case 1: s = "Qish"; break;
+                case 2: s = "Qish"; break;
+                case 3: s = "Bahor"; break;
+                case 4: s = "Bahor"; break;
+                case 5: s = "Bahor"; break;
+                case 6: s = "Yoz"; break;
+                case 7: s = "Yoz"; break;
+                case 8: s = "Yoz"; break;
+                case 9: s = "Kuz"; break;
+                case 10: s = "Kuz"; break;
+                case 11: s = "Kuz"; break;
+                case 12: s = "Qish"; break;
+                default: s = "Bunday oy yo'q";
+                    break;
+            }
+            WriteLine(s);*/
+            // 16-masala
             
-
 
 
             // Shaxmat Saydu110/C-masalalar
@@ -934,7 +955,7 @@ Write($"c : {c}");*/
         for (int i = 0; son>=1; son/=10)
         {
             i = son % 10;
-            Console.WriteLine(i);
+            WriteLine(i);
         }
     }
 

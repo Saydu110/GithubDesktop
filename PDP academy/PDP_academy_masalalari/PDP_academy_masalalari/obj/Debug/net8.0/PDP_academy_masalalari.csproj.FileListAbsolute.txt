@@ -1,0 +1,15 @@
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/bin/Debug/net8.0/PDP_academy_masalalari
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/bin/Debug/net8.0/PDP_academy_masalalari.deps.json
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/bin/Debug/net8.0/PDP_academy_masalalari.runtimeconfig.json
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/bin/Debug/net8.0/PDP_academy_masalalari.dll
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/bin/Debug/net8.0/PDP_academy_masalalari.pdb
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.GeneratedMSBuildEditorConfig.editorconfig
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.AssemblyInfoInputs.cache
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.AssemblyInfo.cs
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.csproj.CoreCompileInputs.cache
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.sourcelink.json
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.dll
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/refint/PDP_academy_masalalari.dll
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.pdb
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/PDP_academy_masalalari.genruntimeconfig.cache
+/home/Kuro/GithubDesktop/PDP academy/PDP_academy_masalalari/PDP_academy_masalalari/obj/Debug/net8.0/ref/PDP_academy_masalalari.dll

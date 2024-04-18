@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PDP_academy_masalalari/1.0.0": {
+        "runtime": {
+          "PDP_academy_masalalari.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PDP_academy_masalalari/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

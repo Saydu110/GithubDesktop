@@ -5,7 +5,11 @@ class Programm
     static void Main(string[] args)
     {
         WriteLine("Xush kelibsiz!!!");
-        metka:
+        Language();
+    }
+
+    private static void Language()
+    {
         WriteLine("Tilni tanlang");
         WriteLine("1-Uzbek\n2-English\n3-Russia");
         int tanlov = int.Parse(ReadLine()!);
@@ -13,28 +17,31 @@ class Programm
         {
             case 1:
             {
-                WriteLine("Parol kiriting : ");
-                int a = int.Parse(ReadLine()!);
-                Parol(a);
-                goto metka;
-
+                Parol();
             }break;
         }
     }
-    public static void Parol(int parol)
+    public static void Parol()
     {
-        int password = 1111;
+        int tekshirish = 1;
+        while (tekshirish <= 3)
+        {
+            WriteLine("Parol kiriting : ");
+            int a = int.Parse(ReadLine()!);
+            int password = 1111;
+            if (a == password)
+            {
+                Menu();
+            }
+            else
+            {
+                WriteLine("Parolni xato kiridingiz!!! Qayta urinib ko'ring");
+            }
 
-        if (parol == password)
-        {
-            Menu();
+            tekshirish++;
         }
-        else
-        {
-            WriteLine("Parolni xato kiridingiz!!! Qayta urinib ko'ring");
-        }
+            WriteLine("!!!Urinishlar soni tugadi!!!");
     }
-
     static void Menu()
     {
         WriteLine("_______________________________________________");
@@ -58,7 +65,8 @@ class Programm
                 break;
             case 3:
             {
-                
+                SmsXabarnoma();
+                Menu();
             }
                 break;
         }
@@ -75,5 +83,38 @@ class Programm
         WriteLine("_______________________________________________");
         return balans;
     }
-    
+    public static void SmsXabarnoma()
+    {
+        WriteLine("1-Nomer ulash\n2-Nomer Almashtirish\n3-Nomerni ko'rish");
+        int nomer = 971652026;
+        int tanlov = int.Parse(ReadLine()!);
+        switch (tanlov)
+        {
+            case 1: 
+            {
+                Write("For.ex = 971650000\nNomerni kiriting : +");
+                int number = int.Parse(ReadLine()!);
+                WriteLine($"Sizning {number} raqamingiz kartangizga ulandi");
+                WriteLine("_______________________________________________");
+            } 
+            break;
+            case 2:
+            {
+                Write("For.ex = 971650000\nYangi raqamni kiriting : +");
+                int newNumber = int.Parse(ReadLine()!);
+                nomer = newNumber;
+                WriteLine($"Sizning {nomer} raqamingiz kartangizga ulandi");
+                WriteLine("_______________________________________________");
+            }
+            break;
+            case 3:
+            {
+                WriteLine(nomer);
+            }
+            break;
+            
+        }
+        
+
+    }
 }

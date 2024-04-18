@@ -1,0 +1,15 @@
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/bin/Debug/net8.0/Bankomat1
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/bin/Debug/net8.0/Bankomat1.deps.json
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/bin/Debug/net8.0/Bankomat1.runtimeconfig.json
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/bin/Debug/net8.0/Bankomat1.dll
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/bin/Debug/net8.0/Bankomat1.pdb
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.GeneratedMSBuildEditorConfig.editorconfig
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.AssemblyInfoInputs.cache
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.AssemblyInfo.cs
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.csproj.CoreCompileInputs.cache
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.sourcelink.json
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.dll
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/refint/Bankomat1.dll
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.pdb
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/Bankomat1.genruntimeconfig.cache
+/home/Kuro/GithubDesktop/Bankomat Project/Bankomat1/Bankomat1/obj/Debug/net8.0/ref/Bankomat1.dll

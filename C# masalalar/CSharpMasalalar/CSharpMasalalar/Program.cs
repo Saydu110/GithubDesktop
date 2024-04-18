@@ -766,7 +766,7 @@ class Programm
             }
             WriteLine(s);*/
             // 14-masala
-            /* int son;
+           /* int son;
             Write("son kiriting : ");
             son = int.Parse(ReadLine()!);
             int i = 0;
@@ -935,7 +935,98 @@ Write($"c : {c}");*/
             {
                 Write("Bu nuqta I yoki II chorakda yotadi.");
             }*/
+            
+            /*WriteLine("Card char : ");
+            char card = char.Parse(ReadLine()!);
+            string upperCard = card.ToString().ToUpper();
+            WriteLine("Card name : ");
+            string cardName = ReadLine()!;
+            string upperCardName = cardName.ToUpper();;
+            
+            string s = "";
+            
+            switch (card)
+            {
+                case '2': s = "bir";break;
+                case '3': s = "uch"; break;
+                case '4': s = "to'rt"; break;
+                case '5': s = "besh"; break;
+                case '6': s = "olti"; break;
+                case '7': s = "yetti"; break;
+                case '8': s = "sakkiz"; break;
+                case '9': s = "to'qqiz"; break;
+                case 'X': s = "O'n";break;
+                case 'A': s = "tuz";break;
+                case 'D': s = "dama";break;
+                case 'K': s = "karol";break;
+                case 'J': s = "valet";break;
+            }
 
+            switch (upperCardName)
+            {
+                case "Q": s += " Qarg'a";break;
+                case "Ch": s += " Chillik";break;
+                case "G'": s += " Gisht";break;
+                case "T": s += " Toppon";break;
+            }
+            WriteLine(s);*/
+            
+            WriteLine("Kun : ");
+            int kun = int.Parse(ReadLine()!);
+            WriteLine("Oy : ");
+            int oy = int.Parse(ReadLine()!);
+
+            int onlik = kun / 10;
+            int birlik = kun % 10;
+            string s = "";
+            switch (kun)
+            {
+                case 10: s += "10-";break;
+            }
+
+            switch (onlik)
+            {
+                case 1:
+                    s += "1";
+                    break;
+                case 2:
+                    s += "2";
+                    break;
+                case 3:
+                    s += "3";
+                    break;
+            }
+            switch (birlik)
+            {
+                case 1: s += "1-"; break;
+                case 2: s += "2-"; break;
+                case 3: s += "3-"; break;
+                case 4: s += "4-"; break;
+                case 5: s += "5-"; break;
+                case 6: s += "6-"; break;
+                case 7: s += "7-"; break;
+                case 8: s += "8-"; break;
+                case 9: s += "9-"; break;
+                default: s = "bunday kun yoq"; break;
+            }
+
+            switch (oy)
+            {
+                case 1: s += "yanvar "; break;
+                case 2: s += "fevral "; break;
+                case 3: s += "mart "; break;
+                case 4: s += "aprel "; break;
+                case 5: s += "may "; break;
+                case 6: s += "iyun "; break;
+                case 7: s += "uyul "; break;
+                case 8: s += "august "; break;
+                case 9: s += "sentabr "; break;
+                case 10: s += "oktabr"; break;
+                case 11: s += "noyabr";break;
+                case 12: s += "dekabr";break;
+                default: s = "Bunday oy yoq";break;
+            }
+            WriteLine(s);
 
         }
     }

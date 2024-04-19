@@ -7,7 +7,6 @@ class Programm
         WriteLine("Xush kelibsiz!!!");
         Language();
     }
-
     private static void Language()
     {
         WriteLine("Tilni tanlang");
@@ -19,6 +18,16 @@ class Programm
             {
                 Parol();
             }break;
+            case 2:
+            {
+                WriteLine("Qadrli mijoz sizdan uzr so'raymiz. Bizning til bilish darajamiz hali unchalik yaxshi emas!!!");
+            }break;
+            case 3:
+            {
+                WriteLine("Qadrli mijoz sizdan uzr so'raymiz. Bizning til bilish darajamiz hali unchalik yaxshi emas!!!");
+            }
+            break;
+            
         }
     }
     public static void Parol()
@@ -112,9 +121,6 @@ class Programm
                 WriteLine(nomer);
             }
             break;
-            
         }
-        
-
     }
 }

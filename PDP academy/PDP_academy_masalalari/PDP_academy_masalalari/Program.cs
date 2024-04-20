@@ -99,11 +99,15 @@ class Programm
         double natija = SonningDarajasi(son, darajasi);
         WriteLine(natija);*/
         //2-masala
-        int a = 23;
-        Ishora(a);
+        /*int a = 23;
+        Ishora(a);*/
         //3-masala
-        int yil = 234;
-        AsrYil(yil);
+        /*int yil = 234;
+        AsrYil(yil);*/
+        //4-masala
+        int son = 234567;
+        int xonaSoni = Xonalik(son);
+        WriteLine($"{son}-soni {xonaSoni} xonalik");
 
     }
 
@@ -155,8 +159,16 @@ class Programm
         
     }
 
-    static void Xonalik()
+    static int Xonalik(int son)
     {
-        
+        int count = 0;
+        while (son>0)
+        {
+            son /= 10;
+            count++;
+
+        }
+
+        return count;
     }
 }

@@ -105,9 +105,13 @@ class Programm
         /*int yil = 234;
         AsrYil(yil);*/
         //4-masala
-        int son = 234567;
+        /*int son = 234567;
         int xonaSoni = Xonalik(son);
-        WriteLine($"{son}-soni {xonaSoni} xonalik");
+        WriteLine($"{son}-soni {xonaSoni} xonalik");*/
+        //5-masala
+        int num1 = 7;
+        int num2 = 10;
+        MinAndMax(num1,num2);
 
     }
 
@@ -121,7 +125,6 @@ class Programm
 
         return natija;
     }
-
     static void Ishora(double son)
     {
         if (son < 0)
@@ -138,7 +141,6 @@ class Programm
         }
         
     }
-
     static void AsrYil(int yil)
     {
         if (yil<100)
@@ -158,7 +160,6 @@ class Programm
         }
         
     }
-
     static int Xonalik(int son)
     {
         int count = 0;
@@ -170,5 +171,20 @@ class Programm
         }
 
         return count;
+    }
+
+    static void MinAndMax(int x, int y)
+    {
+        if (x>y)
+        {
+            WriteLine(x + " " + y);
+        }
+        else
+        {
+            int temp = x;
+            x = y;
+            y = temp;
+            WriteLine(x + " " + y);
+        }
     }
 }

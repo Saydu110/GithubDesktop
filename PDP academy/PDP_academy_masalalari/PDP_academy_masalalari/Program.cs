@@ -65,12 +65,98 @@ class Programm
             }
         }*/
         //10-masala
-        int N = 27;
+        /*int N = 27;
         int M = 4;
         while (N >= M)
         {
             N -= M;
         }
-        WriteLine(N);
-    }    
+        WriteLine(N);*/
+        //11-masala
+        /*double Bmasofa = 10;
+        double jamiMasofa = 10;
+        int kun = 1;
+        while (Bmasofa<=20)
+        {
+            
+            Bmasofa *= 1.1;
+            if (jamiMasofa>=100)
+            {
+                WriteLine(jamiMasofa);
+            }
+            else
+            {
+                jamiMasofa += Bmasofa;
+            }
+            kun++;
+        }
+        WriteLine(kun);*/
+        
+        // Lesson 7
+        //1-masala
+        /*double son = 2;
+        int darajasi = 3;
+        double natija = SonningDarajasi(son, darajasi);
+        WriteLine(natija);*/
+        //2-masala
+        int a = 23;
+        Ishora(a);
+        //3-masala
+        int yil = 234;
+        AsrYil(yil);
+
+    }
+
+    static double SonningDarajasi(double son,int daraja)
+    {
+        double natija = 1;
+        for (int i = 1; i <= daraja; i++)
+        {
+            natija = natija * son;
+        }
+
+        return natija;
+    }
+
+    static void Ishora(double son)
+    {
+        if (son < 0)
+        {
+            WriteLine("bu son manfiy : '-' ");
+        }
+        else if (son == 0)
+        {
+            WriteLine("bu son 0 ga teng ");
+        }
+        else
+        {
+            WriteLine("bu son musbat : '+' ");
+        }
+        
+    }
+
+    static void AsrYil(int yil)
+    {
+        if (yil<100)
+        {
+            WriteLine("1-asr");
+        }else if (yil>=100)
+        {
+            int asr = yil / 100 + 1;
+            WriteLine($"{asr}-asr");
+        }else if (yil ==0)
+        {
+            WriteLine("0- yil bo'lishi mumkin emas ");
+        }
+        else
+        {
+            WriteLine("Miloddan avvalgi yillar");
+        }
+        
+    }
+
+    static void Xonalik()
+    {
+        
+    }
 }

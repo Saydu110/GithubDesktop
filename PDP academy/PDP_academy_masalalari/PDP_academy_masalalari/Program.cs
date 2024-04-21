@@ -109,9 +109,17 @@ class Programm
         int xonaSoni = Xonalik(son);
         WriteLine($"{son}-soni {xonaSoni} xonalik");*/
         //5-masala
-        int num1 = 7;
+        /*int num1 = 7;
         int num2 = 10;
-        MinAndMax(num1,num2);
+        MinAndMax(num1,num2);*/
+        //string name = "Salom Alisher\vwewe ";
+        //WriteLine(name);
+        //Lesson 8
+        //1-masala
+        Write("Matn kiriting : ");
+        string matn = ReadLine()!;
+        WriteLine(IsLower(matn));
+        
 
     }
 
@@ -172,7 +180,6 @@ class Programm
 
         return count;
     }
-
     static void MinAndMax(int x, int y)
     {
         if (x>y)
@@ -187,4 +194,24 @@ class Programm
             WriteLine(x + " " + y);
         }
     }
+    static string IsLower(string matn)
+    {
+        string kichikMatn = "";
+        for (int i = 0; i < matn.Length; i++)
+        {
+            char harf = matn[i];
+            if (harf >= 'A' && harf <= 'Z')
+            {
+                kichikMatn += (char)(harf + 32); 
+            }
+            else
+            {
+                kichikMatn += harf;
+            }
+        }
+        return kichikMatn;
+    }
 }
+
+
+

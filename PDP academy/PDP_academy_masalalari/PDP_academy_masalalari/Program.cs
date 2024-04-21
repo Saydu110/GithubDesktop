@@ -211,6 +211,7 @@ class Programm
         }
         return kichikMatn;
     }
+    static string 
 }
 
 

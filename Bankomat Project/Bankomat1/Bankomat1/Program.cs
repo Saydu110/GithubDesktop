@@ -2,9 +2,9 @@
 class Programm
 {
     public static double balans = 999999;
+    public static string password = "1111";
     static void Main(string[] args)
-    {
-        WriteLine("Xush kelibsiz!!!");
+    {       WriteLine("Xush kelibsiz!!!");
         Language();
     }
     private static void Language()
@@ -36,8 +36,7 @@ class Programm
         while (tekshirish <= 3)
         {
             WriteLine("Parol kiriting : ");
-            int a = int.Parse(ReadLine()!);
-            int password = 1111;
+            string a = ReadLine()!;
             if (a == password)
             {
                 Menu();
@@ -46,7 +45,7 @@ class Programm
             {
                 WriteLine("Parolni xato kiridingiz!!! Qayta urinib ko'ring");
             }
-
+                 
             tekshirish++;
         }
             WriteLine("!!!Urinishlar soni tugadi!!!");
@@ -54,7 +53,7 @@ class Programm
     static void Menu()
     {
         WriteLine("_______________________________________________");
-        WriteLine("1-Balans ko'rish\n2-Naqd Pul olish\n3-Sms xabarnoma");
+        WriteLine("1-Balans ko'rish\n2-Naqd Pul olish\n3-Sms xabarnoma\n4-To'lovlar\n5-Parol o'zgartirish");
         int tanlov1 = int.Parse(ReadLine()!);
         switch (tanlov1)
         {
@@ -78,6 +77,73 @@ class Programm
                 Menu();
             }
                 break;
+            case 4:
+            { 
+                WriteLine("\n1-Kamunal to'lovlar\n2-Soliq\n3-Internet\n4-Mobile\n5-Jarimalar");
+                Write("Menudan birini tanlang : "); 
+                tanlov1= int.Parse(ReadLine()!);
+                switch (tanlov1)
+                {
+                    //kamunal 
+                    case 1:
+                    {
+                        WriteLine("\n1-Suv\n2-Gaz\n3-Svet\n4-Chiqindi");
+                        Write("Menudan birini tanlang : ");
+                        tanlov1 = int.Parse(ReadLine()!);
+                        switch (tanlov1)
+                        {
+                            //Suv
+                            case 1:
+                            {
+                                
+                            }break;
+                            //Gaz
+                            case 2:
+                            {
+                                
+                            }break;
+                            //Swet
+                            case 3:
+                            {
+                                
+                            }break;
+                            //chiqindi
+                            case 4:
+                            {
+                                
+                            }break;
+                        }
+
+                    }break;
+                    //Soliq
+                    case 2:
+                    {
+                        
+                    }break;
+                    //Internet
+                    case 3:
+                    {
+                        
+                    }break;
+                    //Mobile
+                    case 4:
+                    {
+                        
+                    }break;
+                    //Jarimalar
+                    case 5:
+                    {
+                        
+                    }break;
+                }
+            }break;
+            case 5:
+            {
+                WriteLine("Yangi parolni kiriting : ");
+                string newPassword = ReadLine()!;
+                password = newPassword;
+                WriteLine("paroliningiz muvafaqiyatli o'zgartirildi");
+            }break;
         }
     }
     public static double Balans()

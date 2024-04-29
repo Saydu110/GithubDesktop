@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PDP_academy_masalalari")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c801d7909fdf8b1e1d45c327b45ff9cc9cf0a288")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05631bb0e67605e46265f6f22b322fe587d0af02")]
 [assembly: System.Reflection.AssemblyProductAttribute("PDP_academy_masalalari")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PDP_academy_masalalari")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

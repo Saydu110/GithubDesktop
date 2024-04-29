@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpMasalalar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35dea733e7c4d4d5ee1aba505dbc02629bec11f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05631bb0e67605e46265f6f22b322fe587d0af02")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpMasalalar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpMasalalar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

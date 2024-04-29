@@ -116,9 +116,9 @@ class Programm
         //WriteLine(name);
         //Lesson 8
         //1-masala
-        Write("Matn kiriting : ");
+        /*Write("Matn kiriting : ");
         string matn = ReadLine()!;
-        WriteLine(IsLower(matn));
+        WriteLine(IsLower(matn));*/
         
 
     }
@@ -211,7 +211,7 @@ class Programm
         }
         return kichikMatn;
     }
-    static string 
+    
 }
 
 

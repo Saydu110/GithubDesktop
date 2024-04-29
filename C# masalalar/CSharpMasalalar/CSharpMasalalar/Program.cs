@@ -971,7 +971,7 @@ Write($"c : {c}");*/
             }
             WriteLine(s);*/
             
-            WriteLine("Kun : ");
+            /*WriteLine("Kun : ");
             int kun = int.Parse(ReadLine()!);
             WriteLine("Oy : ");
             int oy = int.Parse(ReadLine()!);
@@ -1026,7 +1026,8 @@ Write($"c : {c}");*/
                 case 12: s += "dekabr";break;
                 default: s = "Bunday oy yoq";break;
             }
-            WriteLine(s);
+            WriteLine(s);*/
+            
 
         }
     }

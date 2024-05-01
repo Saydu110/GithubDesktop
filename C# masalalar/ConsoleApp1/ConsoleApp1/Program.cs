@@ -63,20 +63,85 @@ class Programm
             
             Random r = new Random();
 
-            Write("n : ");
+            /*Write("n : ");
             int n = int.Parse(ReadLine()!);
             int s = 1;
             int yigindi = 0;
             while (s<=n)
             {
-                
                 int x = r.Next(1, 10);
                 WriteLine(x);
                 yigindi += x;
                 s++;
             }
-            WriteLine(yigindi);
+            WriteLine(yigindi);*/
+            // while 
+            // 1-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            while (a>=b)
+            {
+                a -= b;
+            }
+            WriteLine(a);*/
+            // 2-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            int count = 0;
+            while (a>=b)
+            {
+                a -= b;
+                count++;
+            }
+            WriteLine(count);*/
+            // 3-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            int count = 0;
+            while (a>=b)
+            {
+                a -= b;
+                count++;
+            }
+            WriteLine($"{count} butun {a} qoldiqe");*/
+            // 4-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int x = 1;
+            int count = -1;
+            bool check = false;
+            while (x<=n)
+            {
+                
+                if (x == n)
+                {
+                    check = true;
+                }
+                
+                x *= 3;
+                count++;
+            }
 
+            if (check)
+            {
+                WriteLine($"Kiritilgan son 3 ning {count} darajasi");
+            }
+            else
+            {
+                WriteLine("Kiritilgan son 3 ning darajasi emas");
+            }*/
+    
+            Write("son : ");
+            int s = int.Parse(ReadLine()!);
+            string t = "Mening ";
+            t += (s > 1) ? "Doppilarim" : (s<1) ?"Minus son kiritdingiz" : "Doppim";
+            WriteLine(t);
 
     }
 }

@@ -137,7 +137,7 @@ class Programm
                 WriteLine("Kiritilgan son 3 ning darajasi emas");
             }*/
     
-            Write("n : ");
+            /*Write("n : ");
             int n = int.Parse(ReadLine()!);
             int k = 0;
             int kvadrat=0;
@@ -146,7 +146,29 @@ class Programm
                 k++;
                 kvadrat = k * k;
             }
-            WriteLine(k);
-
+            WriteLine(k);*/
+            
+            /*Write("k : ");
+            int k = int.Parse(ReadLine()!);
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int s = 1;
+            while (s<=n)
+            {
+                WriteLine(k);
+                s++;
+            }*/
+            
+            Write("f : ");
+            int f = int.Parse(ReadLine()!);
+            int i = 1;
+            int y = f;
+            while (i<=y)
+            {
+                WriteLine($"{i}={f}");
+                i++;
+                f--;
+            }
+            
     }
 }

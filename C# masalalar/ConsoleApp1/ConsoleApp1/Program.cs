@@ -137,11 +137,17 @@ class Programm
                 WriteLine("Kiritilgan son 3 ning darajasi emas");
             }*/
     
-            Write("son : ");
-            int s = int.Parse(ReadLine()!);
-            string t = "Mening ";
-            t += (s > 1) ? "Doppilarim" : (s<1) ?"Minus son kiritdingiz" : "Doppim";
-            WriteLine(t);
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int k = 0;
+            int kvadrat=1;
+            while (kvadrat<=n)
+            {
+              
+                kvadrat = k*k; // 2*2=4 4ning kvadrati 4*4=16 ga teng
+                k++;
+            }
+            WriteLine(k);
 
     }
 }

@@ -1,0 +1,15 @@
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/bin/Debug/net8.0/Homework1
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/bin/Debug/net8.0/Homework1.deps.json
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/bin/Debug/net8.0/Homework1.runtimeconfig.json
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/bin/Debug/net8.0/Homework1.dll
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/bin/Debug/net8.0/Homework1.pdb
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.GeneratedMSBuildEditorConfig.editorconfig
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.AssemblyInfoInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.AssemblyInfo.cs
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.csproj.CoreCompileInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.sourcelink.json
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.dll
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/refint/Homework1.dll
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.pdb
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/Homework1.genruntimeconfig.cache
+/home/Kuro/GithubDesktop/C# masalalar/Homework1/Homework1/obj/Debug/net8.0/ref/Homework1.dll

@@ -140,12 +140,11 @@ class Programm
             Write("n : ");
             int n = int.Parse(ReadLine()!);
             int k = 0;
-            int kvadrat=1;
+            int kvadrat=0;
             while (kvadrat<=n)
             {
-              
-                kvadrat = k*k; // 2*2=4 4ning kvadrati 4*4=16 ga teng
                 k++;
+                kvadrat = k * k;
             }
             WriteLine(k);
 

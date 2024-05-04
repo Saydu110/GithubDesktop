@@ -159,7 +159,7 @@ class Programm
                 s++;
             }*/
             
-            Write("f : ");
+            /*Write("f : ");
             int f = int.Parse(ReadLine()!);
             int i = 1;
             int y = f;
@@ -168,7 +168,65 @@ class Programm
                 WriteLine($"{i}={f}");
                 i++;
                 f--;
+            }*/
+            
+            //5-masala
+            /*Write("son kiriting : ");
+            int s = int.Parse(ReadLine()!);
+
+            int n = 1;
+            int count = -1;
+            while (n<=s)
+            {
+                n *= 2;
+                count++;
             }
+            WriteLine(count);*/
+            //6-masala
+            /*Write("son kiriting : ");
+            int s = int.Parse(ReadLine()!);
+            int y = 1;
+            while (s>0)
+            {
+                y *= s;
+                s -= 2;
+                
+            }
+            WriteLine(y);*/
+            //7-masala
+            /*Write("son kiriting : ");
+            int s = int.Parse(ReadLine()!);
+            int kvadrat = 1;
+            int k = 1;
+            while (kvadrat<=s)
+            {
+                k++;
+                kvadrat = k * k;
+            }
+            WriteLine(k);*/
+            //8-masala
+            /*Write("son kiriting : ");
+            int s = int.Parse(ReadLine()!);
+            int kvadrat = 1;
+            int k = 1;
+            while (kvadrat<=s)
+            {
+                k++;
+                kvadrat = k * k;
+            }
+            WriteLine(k-1);*/
+            //9-masala
+            /*Write("son kiriting : ");
+            int s = int.Parse(ReadLine()!);
+            int k = 1;
+            int count = 0;
+            while (k<=s)
+            {
+                k *= 3;
+                count++;
+            }
+            WriteLine(count);*/
+            //10-masala
             
     }
 }

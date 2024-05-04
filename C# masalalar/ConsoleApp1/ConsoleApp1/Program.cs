@@ -45,9 +45,6 @@ class Programm
                 s++;
             }
         }*/
-
-        
-        
             
             /*int s = 1;
             int count = 0;
@@ -227,6 +224,52 @@ class Programm
             }
             WriteLine(count);*/
             //10-masala
-            
+            /*Write("son kiriting : ");
+            int s = int.Parse(ReadLine()!);
+            int k = 1;
+            int count = 0;
+            while (k<=s)
+            {
+                k *= 3;
+                count++;
+            }
+
+            WriteLine(count-1);*/
+            //11-masala
+            /*Write("son kiriting : ");
+            int n = int.Parse(ReadLine()!);
+            int k = 1;
+            int yigindi = 1;
+            while (yigindi<n)
+            {    
+                k++;
+                yigindi += k;
+            }
+            WriteLine($"Yig'indi = {yigindi}");
+            WriteLine($"k = {k}");*/
+            //12-masala
+            /*Write("son kiriting : ");
+            int n = int.Parse(ReadLine()!);
+            int k = 1;
+            int yigindi = 1;
+            while (yigindi<=n)
+            {
+                k++;
+                yigindi += k;
+            }
+            WriteLine(yigindi-k);
+            WriteLine(k-1);*/
+            //13-masala
+            Write("son kiriting : ");
+            int a = int.Parse(ReadLine()!);
+            int k = 2;
+            int yigindi = 1;
+            while (yigindi<=a)
+            {
+                yigindi = yigindi + 1/k;
+                k++;
+            }
+            WriteLine(yigindi);
+            WriteLine(k);
     }
 }

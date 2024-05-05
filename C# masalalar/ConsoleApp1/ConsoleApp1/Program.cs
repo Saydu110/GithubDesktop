@@ -367,6 +367,50 @@ class Programm
                 WriteLine(false);
             }*/
             //21-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            bool check = false;
+            while (n>0)
+            {
+                int q = n % 10;
+                if (q%2!=0)
+                {
+                    check = true;
+                }
+                n /= 10;
+                
+            }
+
+            if (check)
+            {
+                WriteLine(true);
+            }
+            else
+            {
+                WriteLine(false);
+            }*/
+            //22-masala
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int q = 2;
+            bool check = false;
+            while (q<n)
+            {
+                if (n%q==0)
+                {
+                    check = true;
+                }
+                q++;
+            }
+
+            if (check)
+            {
+                WriteLine("Bu son tub emas");
+            }
+            else
+            {
+                WriteLine("Bu son tub ");
+            }
 
 
 

@@ -344,8 +344,30 @@ class Programm
             }
             WriteLine($"{yigindi}");*/
             //20-masala
-            Write("");
-            
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            bool check = false;
+            while (n>0)
+            {
+                int q = n % 10;
+                if (q==2)
+                {
+                    check = true;
+                }
+                n /= 10;
+                
+            }
+
+            if (check)
+            {
+                WriteLine(true);
+            }
+            else
+            {
+                WriteLine(false);
+            }*/
+            //21-masala
+
 
 
 

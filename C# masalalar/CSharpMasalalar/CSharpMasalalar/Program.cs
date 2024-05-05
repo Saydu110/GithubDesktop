@@ -1044,7 +1044,7 @@ Write($"c : {c}");*/
 
     public static void Numbers(int son)
     {
-        for (int i = 0; son>=1; son/=10)
+        for (int i; son>=1; son/=10)
         {
             i = son % 10;
             WriteLine(i);

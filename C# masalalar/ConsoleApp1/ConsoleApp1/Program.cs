@@ -260,16 +260,94 @@ class Programm
             WriteLine(yigindi-k);
             WriteLine(k-1);*/
             //13-masala
-            Write("son kiriting : ");
+            /*Write("son kiriting : ");
             int a = int.Parse(ReadLine()!);
-            int k = 2;
-            int yigindi = 1;
+            double k = 2;
+            double yigindi = 1;
             while (yigindi<=a)
             {
                 yigindi = yigindi + 1/k;
                 k++;
             }
             WriteLine(yigindi);
-            WriteLine(k);
+            WriteLine(k);*/
+            //14-masala
+            /*Write("son kiriting : ");
+            int a = int.Parse(ReadLine()!);
+            double k = 2;
+            double yigindi = 1;
+            while (yigindi<=a)
+            {
+                yigindi = yigindi + 1/k;
+                k++;
+            }
+            WriteLine(yigindi-1/k);
+            WriteLine(k-1);*/
+            //15-masala
+            /*Write("boshlang'ich summani kiriting : ");
+            double bsum = double.Parse(ReadLine()!);
+            int p = 20;
+            double y = bsum;
+            int count = 0;
+            while (bsum<=2*y)
+            {
+                bsum += 0.20 * bsum;
+                count++;
+            }
+            WriteLine($"{count} oyda sizning pulingiz 2 marta ko'payadi.");*/
+            //16-masala
+            /*Write("keyingi kunda necha foizga oshirmoqchisiz : ");
+            double p = double.Parse(ReadLine()!);
+            double s = 10;
+            double f = 200;
+            int count = 0;
+            while (s<=f)
+            {
+                s += (p / 100) * s;
+                count++;
+            }
+            WriteLine(s);
+            WriteLine(count);*/
+            //17-masala
+            /*WriteLine("n : ");
+            int n = int.Parse(ReadLine()!);
+            WriteLine("m : ");
+            int m = int.Parse(ReadLine()!);
+            int count = 0;
+            while (n>m)
+            {
+                n -= m;
+                count++;
+            }
+            WriteLine($"{count} butun {n} qoldiq");*/
+            //18-masala
+            /*Write("son kiriting : ");
+            int s = int.Parse(ReadLine()!);
+            int q;
+            while (s>0)
+            {
+                q = s % 10;
+                Write(q);
+                s /= 10;
+            }*/
+            //19-masala
+            /*Write("son kiriting : ");
+            string s = ReadLine()!;
+            int q = 0;
+            int yigindi = 0;
+            while (q<s.Length)
+            {
+                WriteLine(s[q]);
+                int raqam = int.Parse(s[q].ToString());
+                yigindi += raqam;
+                q++;
+            }
+            WriteLine($"{yigindi}");*/
+            //20-masala
+            Write("");
+            
+
+
+
     }
 }

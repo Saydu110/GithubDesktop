@@ -390,7 +390,7 @@ class Programm
                 WriteLine(false);
             }*/
             //22-masala
-            Write("n : ");
+            /*Write("n : ");
             int n = int.Parse(ReadLine()!);
             int q = 2;
             bool check = false;
@@ -410,9 +410,69 @@ class Programm
             else
             {
                 WriteLine("Bu son tub ");
+            }*/
+            //23-masala
+            
+            //
+           /* Write("Bo'linuvchini kiriting : ");
+            int n = int.Parse(ReadLine()!);
+            Write("Bo'luvchini kiriting : ");
+            int x = int.Parse(ReadLine()!);
+            string s = "";
+            while (n!=0)
+            {
+                int q = n % 2;
+                s = q + s;
+                n /= x;
             }
+            Write(s);*/
+            
+            
+            // 
+            //Write("");
+            /*char xarf = 'A';
+            while (xarf<='Z')
+            {
+                WriteLine(xarf);
+                xarf++;
+                
+            }*/
+           /* int n;
+            int count=0;
+            do
+            {
+               WriteLine("n : ");
+               n = int.Parse(ReadLine()!);
+               count++;
+            } while (n!=0);
+            WriteLine(count);*/
 
+           int x = r.Next(1, 100);
+           int n;
+           Write("siz nechta urinishda topmoqchisiz : ");
+           int urinish = int.Parse(ReadLine()!);
+           do
+           {
+               WriteLine("n : ");
+               n = int.Parse(ReadLine()!);
+               if (n>x)
+               {
+                   WriteLine("Siz katta son kiritdingiz");
+               }
 
+               if (n<x)
+               {
+                   WriteLine("Siz kichik son kiritdingiz");
+               }
+
+               if (n==x)
+               {
+                   WriteLine("URRRRRRRRRRRRRRRRRAAAAAAAaaaa");
+                   break;
+               }
+               urinish--;
+           } while (urinish>0);
+           WriteLine("Game over");
 
 
     }

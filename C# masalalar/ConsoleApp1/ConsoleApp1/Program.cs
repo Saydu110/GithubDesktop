@@ -447,7 +447,7 @@ class Programm
             } while (n!=0);
             WriteLine(count);*/
 
-           int x = r.Next(1, 100);
+           /*int x = r.Next(1, 100);
            int n;
            Write("siz nechta urinishda topmoqchisiz : ");
            int urinish = int.Parse(ReadLine()!);
@@ -472,7 +472,45 @@ class Programm
                }
                urinish--;
            } while (urinish>0);
-           WriteLine("Game over");
+           WriteLine("Game over");*/
+
+           /*int n;
+           Write("nechchining karra jadvali kerak :");
+           n = int.Parse(ReadLine()!);
+           int y = n;
+           for (int i = 1; i <=10; i++)
+           {
+               WriteLine($"{y}*{i}={i*y}");
+           }*/
+           
+           /*Write("Bo'linuvchini kiriting : ");
+           int n = int.Parse(ReadLine()!);
+           Write("Sanoq sistemasini kiriting : ");
+           int x = int.Parse(ReadLine()!);
+           string s = "";
+           while (n!=0)
+           {
+               int q = n % 8;
+               s = q + s;
+               n /= x;
+           }
+           WriteLine(s);*/
+           
+           // 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+           Write("Sonni kiriting : ");
+           int n = int.Parse(ReadLine()!);
+           Write("Sanoq sistemasini kiriting : ");
+           int x = int.Parse(ReadLine()!);
+           string s = "";
+           while (n!=0)
+           {
+               int q = n % x;
+               q = (q > 9) ? q + 55 : q + 48;
+               s = (char)q + s;
+               n /= x;
+           }
+           WriteLine(s);
+           
 
 
     }

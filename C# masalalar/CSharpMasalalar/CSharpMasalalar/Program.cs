@@ -1028,7 +1028,60 @@ Write($"c : {c}");*/
             }
             WriteLine(s);*/
             
+            // For operatori 
+            
+            //1-masala
+            /*Write("k : ");
+            int k = int.Parse(ReadLine()!);
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
 
+            for (int i = 0; i < n; i++)
+            {
+                WriteLine(k);
+            }*/
+            //2-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            int count = 0;
+            for (int i =a; i <= b; i++)
+            {
+                WriteLine(i);
+                count++;
+            }
+            WriteLine(count);*/
+            //3-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            int count = 0;
+            for (int i =b-1; i > a; i--)
+            {
+                WriteLine(i);
+                count++;
+            }
+            WriteLine(count);*/
+            //4-masala
+            /*WriteLine("konfet narxini kiriting  : ");
+               int k = int.Parse(ReadLine()!);
+               for (int i = 1; i <= 10; i++)
+               {
+                   WriteLine(k*i);
+               }*/
+            //5-masala
+            /*WriteLine("konfet narxini kiriting  : ");
+            int k = int.Parse(ReadLine()!);
+            for (double i = 1; i <= 10; i++)
+            {
+                WriteLine(k*i/10);
+            }*/
+            
+            
+            
+            
         }
     }
 
@@ -1053,4 +1106,3 @@ Write($"c : {c}");*/
 
    
 }
-/

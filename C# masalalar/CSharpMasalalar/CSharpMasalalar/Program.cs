@@ -5,9 +5,7 @@ class Programm
 {
     static void Main(string[] args)
     {
-        while (true)
-        {
-
+        
             //    Lesson3
 
             // 1-masala
@@ -1080,9 +1078,33 @@ Write($"c : {c}");*/
             }*/
             
             
-            
-            
-        }
+            //break, continue
+
+
+            /*for (int i = 1; i <= 100; i++)
+            {
+                if (i%3==0 || i%5==0)
+                {
+                    continue;
+                }
+                WriteLine(i);
+            }*/
+
+            /*int n = 1;
+            while (n<10)
+            {
+                if (n==7)
+                {
+                    n++;
+                    continue;
+                }
+                WriteLine(n);
+                n++;
+            }*/
+
+        
+
+        
     }
 
     static double Modul(int a)

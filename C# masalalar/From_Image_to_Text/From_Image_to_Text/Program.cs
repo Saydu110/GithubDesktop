@@ -7,10 +7,9 @@ namespace ImageToText
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            try
-            {
+            
                 // Rasmdan matn olish uchun OCR obyekti yaratamiz
                 using (var engine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default))
                 {
@@ -25,12 +24,8 @@ namespace ImageToText
                         }
                     }
                 }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
+           
+            
             
         }
     }

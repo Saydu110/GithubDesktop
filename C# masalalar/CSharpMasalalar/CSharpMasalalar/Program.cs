@@ -1076,8 +1076,17 @@ Write($"c : {c}");*/
             {
                 WriteLine(k*i/10);
             }*/
+            //6-masala
+            /*Write("narxini kiriting : ");
+            double k = double.Parse(ReadLine()!);
+            for (int i = 10; i < 20; i+=2)
+            {
+                WriteLine(k*i/10);
+            }*/
+            //7-masala
             
             
+
             //break, continue
 
 
@@ -1102,9 +1111,9 @@ Write($"c : {c}");*/
                 n++;
             }*/
 
-        
 
-        
+
+
     }
 
     static double Modul(int a)

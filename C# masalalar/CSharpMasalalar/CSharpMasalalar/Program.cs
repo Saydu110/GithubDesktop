@@ -1084,8 +1084,50 @@ Write($"c : {c}");*/
                 WriteLine(k*i/10);
             }*/
             //7-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            int sum = 0;
+            for (int i = a; i <= b; i++)
+            {
+                sum += i;
+            }
+            WriteLine(sum);*/
+            //8-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("b : ");
+            int b = int.Parse(ReadLine()!);
+            int sum = 1;
+            for (int i = a; i <= b; i++)
+            {
+                sum *= i;
+            }
+            WriteLine(sum);*/
+            //9-masala
+            /*Write("a : ");
+            double a = double.Parse(ReadLine()!);
+            Write("b : ");
+            double b = double.Parse(ReadLine()!);
+            double sum = 0;
+            for (double i = a; i <= b; i++)
+            {
+                sum += Math.Pow(i,2);
+            }
+            WriteLine(sum);*/
+            //10-masala
+            /*Write("n : ");
+            double n = double.Parse(ReadLine()!);
+            double sum = 0;
+            for (double i = 1; i <= n; i++)
+            {
+                sum += 1/i;
+            }
+            WriteLine(sum);*/
+            //11-masala
             
-            
+
 
             //break, continue
 

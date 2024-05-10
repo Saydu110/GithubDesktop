@@ -1126,8 +1126,23 @@ Write($"c : {c}");*/
             }
             WriteLine(sum);*/
             //11-masala
-            
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            double count = 0;
+            for (int i = 0; i <= n; i++)
+            {
+                WriteLine(Math.Pow((n + i), 2));
+                count += Math.Pow((n + i), 2);
+            }
 
+            WriteLine(count);*/
+            //12-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            for ( ; ; )
+            {
+                WriteLine("s");
+            }*/
 
             //break, continue
 
@@ -1154,8 +1169,69 @@ Write($"c : {c}");*/
             }*/
 
 
+        
+            // loops
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            for (int i = 1; i <= n; i++)
+            {
+                if (n%i==0)
+                {
+                    WriteLine(i);
+                }
+            }*/
+            /*int sum = 0;
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            for (int i = 1; i < n; i++)
+            {
+                if (n%i==0)
+                {
+                    sum += i;
+                    if (sum==n)
+                    {
+                        WriteLine("Bu mukkamal son");
+                    }
+                }
+            }*/
+            /*Write("1 = ");
+            int idish_1 = int.Parse(ReadLine()!);
+            Write("2 = ");
+            int idish_2 = int.Parse(ReadLine()!);
+            Write("3 = ");
+            int idish_3 = int.Parse(ReadLine()!);
 
-
+            for (int i = 0; ; i++)
+            {
+                if (i==idish_1)
+                {
+                    WriteLine("1-idish birinchi to'ladi");
+                    break;
+                }
+                if (i==idish_2)
+                {
+                    WriteLine("2-idish birinchi to'ladi");
+                    break;
+                }
+                if (i==idish_3)
+                {
+                    WriteLine("3-idish birinchi to'ladi");
+                    break;
+                }
+            }*/
+            int a =5;
+            for (int i = 1, j = 5; i <= a*a; i++,j--)
+            {
+                if (j<1)
+                {
+                    WriteLine();
+                    j = 5;
+                }
+                Write($" {j} ");
+            }
+            
+            // 1 va 7
+            // 1*2*3*4*5*6*7=
     }
 
     static double Modul(int a)

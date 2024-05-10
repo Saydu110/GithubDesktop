@@ -1219,7 +1219,7 @@ Write($"c : {c}");*/
                     break;
                 }
             }*/
-            int a =5;
+            int a = 5;
             for (int i = 1, j = 5; i <= a*a; i++,j--)
             {
                 if (j<1)
@@ -1227,7 +1227,7 @@ Write($"c : {c}");*/
                     WriteLine();
                     j = 5;
                 }
-                Write($" {j} ");
+                Write($" {j} *");
             }
             
             // 1 va 7

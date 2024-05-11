@@ -1113,8 +1113,8 @@ Write($"c : {c}");*/
             double sum = 0;
             for (double i = a; i <= b; i++)
             {
-                sum += Math.Pow(i,2);
-            }
+                sum += i*i;
+            }   
             WriteLine(sum);*/
             //10-masala
             /*Write("n : ");
@@ -1139,10 +1139,31 @@ Write($"c : {c}");*/
             //12-masala
             /*Write("n : ");
             int n = int.Parse(ReadLine()!);
-            for ( ; ; )
+            double sum = 1;
+            for ( double i = 1; i<=n;i++)
             {
-                WriteLine("s");
-            }*/
+                WriteLine((i + 10) / 10);
+                sum *= (i + 10) / 10;
+            }
+            WriteLine(sum);*/
+            //13-masala
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            double sum = 1;
+            double sum2 = 2;
+            for ( double i = 1; i<=n;i++)
+            {
+                WriteLine((i + 10) / 10);
+                if (i % 2 == 0)
+                {
+                    sum += (i + 10) / 10;
+                }
+                else
+                {
+                    sum2 += (i + 10) / 10;
+                }
+            }
+            WriteLine(sum2-sum);
 
             //break, continue
 
@@ -1219,7 +1240,7 @@ Write($"c : {c}");*/
                     break;
                 }
             }*/
-            int a = 5;
+            /*int a = 5;
             for (int i = 1, j = 5; i <= a*a; i++,j--)
             {
                 if (j<1)
@@ -1228,7 +1249,7 @@ Write($"c : {c}");*/
                     j = 5;
                 }
                 Write($" {j} *");
-            }
+            }*/
             
             // 1 va 7
             // 1*2*3*4*5*6*7=

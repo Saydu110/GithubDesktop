@@ -3,6 +3,10 @@ using static System.Console;
 
 class Programm
 {
+    public Programm()
+    {
+    }
+
     static void Main(string[] args)
     {
         
@@ -1147,23 +1151,104 @@ Write($"c : {c}");*/
             }
             WriteLine(sum);*/
             //13-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            double sum = 0;
+            double sum2 = 0;
+            for ( double i = 1,j=2; i<=n; i+=2,j+=2)
+            {
+                sum += (i + 10) / 10;
+                sum2 += (j + 10) / 10;
+            }
+            WriteLine(sum-sum2);*/
+            //14-masala 
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int kvadrat = 0;
+            for (int i = 1; i < n; i++)
+            {
+                kvadrat += (2 * i - 1);
+            }*/
+            //15-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
             Write("n : ");
             int n = int.Parse(ReadLine()!);
-            double sum = 1;
-            double sum2 = 2;
-            for ( double i = 1; i<=n;i++)
+            int kvadrat = 1;
+            for (int i = 1; i <= n; i++)
             {
-                WriteLine((i + 10) / 10);
-                if (i % 2 == 0)
-                {
-                    sum += (i + 10) / 10;
-                }
-                else
-                {
-                    sum2 += (i + 10) / 10;
-                }
+                kvadrat *= a;
             }
-            WriteLine(sum2-sum);
+            WriteLine(kvadrat);*/
+            //16-masala
+            
+            //17-masala
+            
+            //18-masala
+            /*Write("a : ");
+            int a = int.Parse(ReadLine()!);
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int sum = 1;
+            int sum2 = 1;
+            for (int i = 1, j = a; j <= Math.Pow(a,n); i*=a*a,j*=a*a)
+            {
+                WriteLine(i);
+                WriteLine(j);
+                sum += i;
+                sum2 += j;
+            }
+            WriteLine(sum-sum2);*/
+            //19-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int sum = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                sum *= i;
+            }
+            WriteLine(sum);*/
+            //20-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            int f = 1;
+            int sum = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                WriteLine(i);
+                f *= i;
+                sum += f;
+            }
+            WriteLine(sum);*/
+            //21-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            double f = 1;
+            double  sum= 1;
+            for (int i = 1; i <= n; i++)
+            {
+                WriteLine(i);
+                f *= i;
+                sum += 1/f;
+            }
+            WriteLine(sum);*/
+            //22-masala
+            /*Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            Write("x : ");
+            int x = int.Parse(ReadLine()!);
+            double f = 1;
+            double  sum= 1;
+            double sum2 = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                WriteLine(i);
+                f *= i;
+                sum2 *= x;
+                sum += sum2/f;
+            }
+            WriteLine(sum);*/
+            //23-masala
 
             //break, continue
 
@@ -1190,7 +1275,7 @@ Write($"c : {c}");*/
             }*/
 
 
-        
+
             // loops
             /*Write("n : ");
             int n = int.Parse(ReadLine()!);
@@ -1250,7 +1335,7 @@ Write($"c : {c}");*/
                 }
                 Write($" {j} *");
             }*/
-            
+
             // 1 va 7
             // 1*2*3*4*5*6*7=
     }

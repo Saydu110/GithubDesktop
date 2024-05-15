@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj": {}
+    "/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/nested_loop.csproj": {}
   },
   "projects": {
-    "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj": {
+    "/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/nested_loop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj",
-        "projectName": "CSharpMasalalar",
-        "projectPath": "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/CSharpMasalalar.csproj",
+        "projectUniqueName": "/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/nested_loop.csproj",
+        "projectName": "nested_loop",
+        "projectPath": "/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/nested_loop.csproj",
         "packagesPath": "/home/Kuro/.nuget/packages/",
-        "outputPath": "/home/Kuro/GithubDesktop/C# masalalar/CSharpMasalalar/CSharpMasalalar/obj/",
+        "outputPath": "/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/Kuro/.nuget/NuGet/NuGet.Config"

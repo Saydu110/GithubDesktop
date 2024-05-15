@@ -1249,6 +1249,17 @@ Write($"c : {c}");*/
             }
             WriteLine(sum);*/
             //23-masala
+            Write("n : ");
+            int n = int.Parse(ReadLine()!);
+            Write("x : ");
+            int x = int.Parse(ReadLine()!);
+            double sonX = 0,sonN = 0;
+            
+            for (int i = 1; i <=n ; i++)
+            {
+                sonN *= (-1) * n*;
+                sonX
+            }
 
             //break, continue
 

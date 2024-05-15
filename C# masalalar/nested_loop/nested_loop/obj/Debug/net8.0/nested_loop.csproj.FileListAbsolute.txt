@@ -1,0 +1,15 @@
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/bin/Debug/net8.0/nested_loop
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/bin/Debug/net8.0/nested_loop.deps.json
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/bin/Debug/net8.0/nested_loop.runtimeconfig.json
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/bin/Debug/net8.0/nested_loop.dll
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/bin/Debug/net8.0/nested_loop.pdb
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.GeneratedMSBuildEditorConfig.editorconfig
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.AssemblyInfoInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.AssemblyInfo.cs
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.csproj.CoreCompileInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.sourcelink.json
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.dll
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/refint/nested_loop.dll
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.pdb
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/nested_loop.genruntimeconfig.cache
+/home/Kuro/GithubDesktop/C# masalalar/nested_loop/nested_loop/obj/Debug/net8.0/ref/nested_loop.dll

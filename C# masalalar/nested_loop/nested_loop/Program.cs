@@ -32,6 +32,7 @@ class Programm
 
             WriteLine();
         }*/
+        
         /*for (int i = 1; i <= 5; i++)
         {
             for (int j = 1; j <= 5; j++)
@@ -48,12 +49,56 @@ class Programm
             WriteLine();
         }*/
         
-
-        for (int i = 0; i < 100; i++)
+        /*for (int i = 0; i < 100; i++)
         {
             Console.Write(i);
             Thread.Sleep(1000);
             Clear();
+        }*/
+        
+        Write("row : ");
+        int row = int.Parse(ReadLine()!);
+        Write("column : ");
+        int col = int.Parse(ReadLine()!);
+        int ortaCOl = col / 2+1;
+        int ortarow = row / 2+1;
+        //S
+        for (int i = 1; i <= row; i++)
+        {
+            for (int j = 1; j <= col; j++)
+            {
+                if ((i==1 || i ==ortarow || i==row )
+                    || (j==1 && i<=ortarow)
+                    ||(j==col && i>=ortarow))
+                {
+                    Write(" * ");
+                }
+                else
+                {
+                    Write("   ");
+                }
+                
+            }
+            WriteLine();
         }
+        //A
+        WriteLine();
+        for (int i = 1; i <= row; i++)
+        {
+            for (int j = 1; j <= col; j++)
+            {
+                if (j==col)
+                {
+                    Write(" * ");
+                }
+                else
+                {
+                    Write("   ");
+                }
+                
+            }
+            WriteLine();
+        }
+
     }
 }

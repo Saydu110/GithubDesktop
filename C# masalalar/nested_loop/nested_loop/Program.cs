@@ -87,7 +87,7 @@ class Programm
         {
             for (int j = 1; j <= col; j++)
             {
-                if (j==col)
+                if (i==1||j==1||j==col)
                 {
                     Write(" * ");
                 }

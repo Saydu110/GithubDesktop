@@ -1,0 +1,15 @@
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/bin/Debug/net8.0/Arrays
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/bin/Debug/net8.0/Arrays.deps.json
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/bin/Debug/net8.0/Arrays.runtimeconfig.json
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/bin/Debug/net8.0/Arrays.dll
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/bin/Debug/net8.0/Arrays.pdb
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.AssemblyInfoInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.AssemblyInfo.cs
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.csproj.CoreCompileInputs.cache
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.sourcelink.json
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.dll
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/refint/Arrays.dll
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.pdb
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/Arrays.genruntimeconfig.cache
+/home/Kuro/GithubDesktop/C# masalalar/Arrays/Arrays/obj/Debug/net8.0/ref/Arrays.dll

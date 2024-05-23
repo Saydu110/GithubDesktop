@@ -143,12 +143,20 @@
         int n = int.Parse(Console.ReadLine()!);
 
         int[] k = new int[n];
-        int f = 0;
-        int p = 0;
+        int f = 1;
+        int p = 1;
         for (int i = 0; i < n; i++)
         {
+            k[i] = p;
+            p += k[i-1];
             
         }
+
+        foreach (var x  in k)
+        {
+            Console.WriteLine(x);
+        }
+        
         
 
     }

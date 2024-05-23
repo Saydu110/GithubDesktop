@@ -139,22 +139,28 @@
             Console.WriteLine(x);
         }*/
         //5-masala
-        Console.WriteLine("Fibonachi length :");
+        /*Console.WriteLine("Fibonachi length :");
         int n = int.Parse(Console.ReadLine()!);
 
         int[] k = new int[n];
         int f = 1;
         int p = 1;
-        for (int i = 0; i < n; i++)
+        k[0] = 0;
+        k[1] = 1;
+        k[2] = 1;
+        for (int i = 3; i < n; i++)
         {
-            k[i] = p;
-            p += k[i-1];
-            
+            k[i] = k[i-1]+k[i-2];
         }
-
+        
         foreach (var x  in k)
         {
             Console.WriteLine(x);
+        }*/
+        //6-masala
+        for (int i = 0; i < 20060504; i++)
+        {
+            Console.WriteLine("sen mening do'stimsan");
         }
         
         

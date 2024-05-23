@@ -1,4 +1,5 @@
-﻿class Programm
+﻿using static System.Console;
+class Programm
 {
     static void Main(string[] args)
     {
@@ -158,12 +159,50 @@
             Console.WriteLine(x);
         }*/
         //6-masala
-        for (int i = 0; i < 20060504; i++)
+        /*Write("array length : ");
+        int n = int.Parse(ReadLine()!);
+        Write("k[0] : ");
+        int A = int.Parse(ReadLine()!);
+        Write("k[1] : ");
+        int B = int.Parse(ReadLine()!);
+        
+        int[] k = new int[n];
+        for (int i = 2; i < k.Length; i++)
         {
-            Console.WriteLine("sen mening do'stimsan");
+            k[i] += k[i - 1];
+        }*/
+        //7-masala
+        /*int[] k = { 21, 34, 5, 8, 9, 007, 234 };
+
+        for (int i = k.Length-1; i >= 0; i--)
+        {
+            WriteLine(k[i]);
+        }*/
+        //8-masala
+        /*Random r = new Random();
+        Write("array length : ");
+        int n = int.Parse(ReadLine()!);
+
+        int[] k = new int[n];
+        for (int i = 0; i < n; i++)
+        {
+            k[i] = r.Next(0, 10);
         }
+
+        int count = 0;
+        foreach (var x in k)
+        {
+            if (x%2!=0)
+            {
+                WriteLine(x);
+                count++;
+            }
+            
+        }
+        Write($"toq sonlar soni {count}");*/
+        //9-masala
         
-        
+
 
     }
 }

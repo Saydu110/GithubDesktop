@@ -316,8 +316,31 @@ class Programm
             WriteLine($"k[{i}] => {k[i]}");
         }*/
         //14-masala
-        
-        
+        /*Write("array length : ");
+        int n = int.Parse(ReadLine()!);
+
+        int[] k = new int[n];
+
+        for (int i = 0; i < k.Length; i++)
+        {
+            k[i] = r.Next(0, 100);
+        }
+
+        foreach (var x in k)
+        {
+            Write($"{x}, ");
+        }
+        WriteLine();
+        for (int i = 0; i < k.Length; i += 2)
+        {
+            WriteLine($"k[{i}] => {k[i]}");
+        }
+        WriteLine();
+        for (int i = 1; i <k.Length; i+=2)
+        {
+            WriteLine($"k[{i}] => {k[i]}");
+        }*/
+        //15-masala
         
 
     }

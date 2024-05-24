@@ -3,6 +3,7 @@ class Programm
 {
     static void Main(string[] args)
     {
+        Random r = new Random();
         /*int[] k = { 1, 6, 7, 0, -9, 90 };
         for (int i = 0; i < k.Length; i++)
         {
@@ -201,8 +202,123 @@ class Programm
         }
         Write($"toq sonlar soni {count}");*/
         //9-masala
-        
+        /*Write("Array length : ");
+        int n = int.Parse(ReadLine()!);
 
+        int[] k = new int[n];
+        for (int i = 0; i <k.Length; i++)
+        {
+            k[i] = r.Next(1, 100);
+        }
+
+        foreach (var l in k)
+        {
+            Write($"{l}, ");
+        }
+        
+        WriteLine("---------");
+        for(int x = k.Length -1; x>=0 ; x--)
+        {
+            if(k[x]%2==0)
+            {
+                WriteLine(k[x]);
+            }
+        }*/
+        //10-masala
+        /*Write("array length : ");
+        int n = int.Parse(ReadLine()!);
+
+        int[] k = new int[n];
+        for (int i = 0; i < k.Length; i++)
+        {
+            k[i] = r.Next(10, 100);
+        }
+
+        foreach (var l in k)
+        {
+            Write($"{l}, ");
+        }
+        WriteLine();
+        foreach (var x in k)
+        {
+            if (x % 2 == 0)
+            {
+                Write($"{x}, ");
+            }
+        }
+        WriteLine();
+        for (int i = k.Length-1; i >=0; i--)
+        {
+            if (k[i]%2!=0)
+            {
+                Write($"{k[i]},");
+            }
+        }*/
+        //11-masala
+        /*Write("array length : ");
+        int n = int.Parse(ReadLine()!);
+        Write("Karrali son : ");
+        int A = int.Parse(ReadLine()!);
+        
+        int[] k = new int[n];
+        for (int i = 0; i < k.Length; i++)
+        {
+            k[i] = r.Next(1, 100);
+        }
+
+        foreach (var x in k)
+        {
+            Write($"{x}, ");
+        }
+        WriteLine("---");
+        for (int i = A; i < k.Length; i+=A)
+        {
+            Write($"{k[i]}, ");
+        }*/
+        //12-masala
+        /*Write("array length : ");
+        int n = int.Parse(ReadLine()!);
+
+        int[] k = new int[n];
+
+        for (int i = 0; i < k.Length; i++)
+        {
+            k[i] = r.Next(0, 100);
+        }
+
+        foreach (var x in k)
+        {
+            Write($"{x}, ");
+        }
+        WriteLine();
+        for (int i = 0; i < k.Length; i += 2)
+        {
+            WriteLine($"k[{i}] => {k[i]}");
+        }*/
+        //13-masala
+        /*Write("array length : ");
+        int n = int.Parse(ReadLine()!);
+
+        int[] k = new int[n];
+
+        for (int i = 0; i < k.Length; i++)
+        {
+            k[i] = r.Next(0, 100);
+        }
+
+        foreach (var x in k)
+        {
+            Write($"{x}, ");
+        }
+        WriteLine();
+        for (int i = k.Length-1; i >=1; i-=2)
+        {
+            WriteLine($"k[{i}] => {k[i]}");
+        }*/
+        //14-masala
+        
+        
+        
 
     }
 }
